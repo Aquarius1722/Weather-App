@@ -94,3 +94,37 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .search input {
+        height: 45px;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .search button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .weather h1 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .weather h2 {
+        font-size: 22px;
+        margin-top: -5px;
+    }
+
+    .humidity, .wind {
+        font-size: 18px;
+    }
+}
