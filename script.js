@@ -19,11 +19,10 @@ const apiKey = "d686e6c135b2502873bc21ae55a739f8";
         }
         var data = await response.json();
 
-
-        document.querySelector(".city").innerHTML = data.name;
-        document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
-        document.querySelector(".humidity").innerHTML = data.main.humidity + "+";
-        document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
+           document.querySelector(".city").innerHTML = `${data.name}, ${data.sys.country}`;
+           document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
+           document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+           document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
 
 
 
