@@ -95,7 +95,6 @@ body{
     display: none;
 }
 
-
 @media (max-width: 600px) {
     .card {
         width: 95%;
@@ -116,12 +115,10 @@ body{
 
     .weather h1 {
         font-size: 36px;
-        font-weight: 500;
     }
 
     .weather h2 {
         font-size: 22px;
-        margin-top: -5px;
     }
 
     .humidity, .wind {
