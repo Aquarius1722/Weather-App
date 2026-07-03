@@ -39,8 +39,8 @@ const apiKey = "d686e6c135b2502873bc21ae55a739f8";
         else if(data.weather[0].main =="Drizzle"){
             weatherIcon.src = "drizzle.png";
         }
-        else if(data.weather[0].main =="Clear"){
-            weatherIcon.src = "clouds.png";
+        else if(data.weather[0].main =="Mist"){
+            weatherIcon.src = "mist.png";
            }
 
 
