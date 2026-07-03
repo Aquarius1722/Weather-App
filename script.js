@@ -22,7 +22,7 @@ const apiKey = "d686e6c135b2502873bc21ae55a739f8";
 
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
-        document.querySelector(". humidity").innerHTML = data.main.humidity + "+";
+        document.querySelector(".humidity").innerHTML = data.main.humidity + "+";
         document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
 
 
