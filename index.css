@@ -95,7 +95,6 @@ body{
     display: none;
 }
 
-/* Mobile styles */
 @media (max-width: 600px) {
     body {
         padding: 10px;
