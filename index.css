@@ -95,11 +95,17 @@ body{
     display: none;
 }
 
+/* Mobile styles */
 @media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
     .card {
         width: 95%;
         margin: 20px auto;
         padding: 15px;
+        border-radius: 15px;
     }
 
     .search input {
@@ -115,13 +121,25 @@ body{
 
     .weather h1 {
         font-size: 36px;
+        font-weight: 500;
     }
 
     .weather h2 {
         font-size: 22px;
+        margin-top: -5px;
     }
 
     .humidity, .wind {
         font-size: 18px;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .col {
+        justify-content: center;
     }
 }
